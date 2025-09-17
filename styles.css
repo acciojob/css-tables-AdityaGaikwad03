@@ -12,6 +12,7 @@ th, td {
 
 th {
   font-weight: bold;
+  border-radius: 5px;
 }
 
 tbody tr:nth-child(odd) {
