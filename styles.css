@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 table {
-  border-collapse: separate;  /* needed for border-radius to work */
+  /* border-collapse: separate;  /* needed for border-radius to work */ */
   border-spacing: 8px;         /* space between cells */
 }
 
