@@ -1,13 +1,13 @@
 /*  your css code here. If applicable */
 table {
-  /* border-collapse: separate;  /* needed for border-radius to work */ */
-  border-spacing: 8px;         /* space between cells */
+  border-collapse: separate; 
+  border-spacing: 8px;       
 }
 
 th, td {
   border: 1px solid #ccc;
   /* border-radius: 5px; */
-  padding: 8px;                 /* exact value expected by test */
+  padding: 8px;                
   text-align: left;
 }
 
@@ -19,7 +19,6 @@ td{
 	border-radius: 5px;
 }
 
-/* background colors for odd/even rows (on td, not tr) */
 tbody tr:nth-child(odd) td {
   background-color: #f2f2f2;
 }
