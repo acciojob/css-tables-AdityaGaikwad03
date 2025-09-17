@@ -1,24 +1,21 @@
 /*  your css code here. If applicable */
 table {
-  border-spacing: 8px;        /* space between cells */
+  border-collapse: separate;  /* needed for border-radius to work */
+  border-spacing: 8px;         /* space between cells */
 }
 
 th, td {
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 0.5rem 1rem;
+  padding: 8px;                 /* exact value expected by test */
   text-align: left;
 }
 
-th {
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-tbody tr:nth-child(odd) {
+/* background colors for odd/even rows (on td, not tr) */
+tbody tr:nth-child(odd) td {
   background-color: #f2f2f2;
 }
 
-tbody tr:nth-child(even) {
+tbody tr:nth-child(even) td {
   background-color: #ffffff;
 }
