@@ -6,9 +6,17 @@ table {
 
 th, td {
   border: 1px solid #ccc;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 8px;                 /* exact value expected by test */
   text-align: left;
+}
+
+th{
+	border-radius: 5px;
+}
+
+td{
+	border-radius: 5px;
 }
 
 /* background colors for odd/even rows (on td, not tr) */
